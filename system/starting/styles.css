@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content{
+    border: 2px solid black;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.innertext{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inner_colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Blue{
+    border: 2px solid blue;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.Pink{
+    border: 2px solid pink;
+    width: 300px;
+    height: 100px;
+    background-color:pink;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.midnightblue{
+    border: 2px solid midnightblue;
+    width: 300px;
+    height: 100px;
+    background-color:midnightblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}   
+
+.Coral{
+    border: 2px solid coral;
+    width: 300px;
+    height: 100px;
+    background-color:coral;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+    
+}
+.Lavender{
+    border: 2px solid lavender;
+    width: 300px;
+    height: 100px;
+    background-color:lavender;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.Goldenrod{
+    border: 2px solid goldenrod;
+    width: 300px;
+    height: 100px;
+    background-color:goldenrod;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
