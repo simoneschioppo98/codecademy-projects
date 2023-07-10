@@ -118,3 +118,9 @@ li > a {
    list-style-type: none;
    justify-content: space-around;
 }
+
+@media screen and (max-width: 480px) {
+    .inner_images {
+      flex-direction: column;
+    }
+  }
