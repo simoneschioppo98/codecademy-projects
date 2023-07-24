@@ -1,4 +1,4 @@
-
+// funzione per input dellútente
 const getUserChoice = userInput => {
     userInput = userInput.toLowerCase();
     if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors'){
@@ -7,7 +7,9 @@ const getUserChoice = userInput => {
       console.log('ma che caaaazzo fai');
     }
   }
-  
+
+
+// funzione per línput delcomputer
   function getComputerChoice (){
     const randomNumber=Math.floor(Math.random()*3);
     if(randomNumber === 1){
@@ -18,7 +20,9 @@ const getUserChoice = userInput => {
       return 'paper';
     }
   }
-   
+
+
+//funzione che determina il vincitore tra utente e computer 
    function determineWinner(userChoice , computerChoice){
       if(userChoice === computerChoice){
         return 'tie!';
@@ -48,7 +52,7 @@ const getUserChoice = userInput => {
   
   
   
-  
+  // funzione di ritorno che unisce le precedenti funzioni
   function playGame (){
    const userChoice = getUserChoice('rock');
   const computerChoice = getComputerChoice();
